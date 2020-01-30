@@ -42,7 +42,16 @@ class MainActivity : AppCompatActivity() {
 
         noteHelper = NoteHelper.getInstance(applicationContext)
         noteHelper.open()
+        val handlerThread = HandlerThread("DataObserver")
+        handlerThread.start()
+        val handler = Handler(handlerThread.looper)
+        val myObserver = object : ContentObserver(handler) {
+            override fun onChange(self: Boolean) {
+                loadNotesAsync()
+            }
+        }
 
+        contentResolver.registerContentObserver(CONTENT_URI, true, myObserver)
         /*
         Cek jika savedInstaceState null makan akan melakukan proses asynctask nya
         jika tidak,akan mengambil arraylist nya dari yang sudah di simpan
