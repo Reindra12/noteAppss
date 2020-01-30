@@ -2,35 +2,72 @@ package com.reindra.mynotesapp.provider
 
 import android.content.ContentProvider
 import android.content.ContentValues
+import android.content.Context
+import android.content.UriMatcher
 import android.database.Cursor
 import android.net.Uri
+import com.reindra.mynotesapp.db.DatabaseContract.AUTHORITY
+import com.reindra.mynotesapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
+import com.reindra.mynotesapp.db.DatabaseContract.NoteColumns.Companion.TABLE_NAME
+import com.reindra.mynotesapp.db.NoteHelper
 
 class NoteProvider : ContentProvider() {
 
-    override fun delete(uri: Uri, selection: String?, selectionArgs: Array<String>?): Int {
-        TODO("Implement this to handle requests to delete one or more rows")
-    }
+    companion object {
 
-    override fun getType(uri: Uri): String? {
-        TODO(
-            "Implement this to handle requests for the MIME type of the data" +
-                    "at the given URI"
-        )
-    }
+        /*
+        Integer digunakan sebagai identifier antara select all sama select by id
+         */
+        private const val NOTE = 1
+        private const val NOTE_ID = 2
+        private lateinit var noteHelper: NoteHelper
 
-    override fun insert(uri: Uri, values: ContentValues?): Uri? {
-        TODO("Implement this to handle requests to insert a new row.")
+        private val sUriMatcher = UriMatcher(UriMatcher.NO_MATCH)
+
+        /*
+        Uri matcher untuk mempermudah identifier dengan menggunakan integer
+        misal
+        uri com.dicoding.picodiploma.mynotesapp dicocokan dengan integer 1
+        uri com.dicoding.picodiploma.mynotesapp/# dicocokan dengan integer 2
+         */
+        init {
+            // content://com.dicoding.picodiploma.mynotesapp/note
+            sUriMatcher.addURI(AUTHORITY, TABLE_NAME, NOTE)
+
+            // content://com.dicoding.picodiploma.mynotesapp/note/id
+            sUriMatcher.addURI(AUTHORITY,
+                "$TABLE_NAME/#",
+                NOTE_ID)
+        }
     }
 
     override fun onCreate(): Boolean {
-        TODO("Implement this to initialize your content provider on startup.")
+        noteHelper = NoteHelper.getInstance(context as Context)
+        noteHelper.open()
+        return true
     }
 
-    override fun query(
-        uri: Uri, projection: Array<String>?, selection: String?,
-        selectionArgs: Array<String>?, sortOrder: String?
-    ): Cursor? {
-        TODO("Implement this to handle query requests from clients.")
+    /*
+    Method queryAll digunakan ketika ingin menjalankan queryAll Select
+    Return cursor
+     */
+    override fun query(uri: Uri, strings: Array<String>?, s: String?, strings1: Array<String>?, s1: String?): Cursor? {
+        val cursor: Cursor?
+        when (sUriMatcher.match(uri)) {
+            NOTE -> cursor = noteHelper.queryAll()
+            NOTE_ID -> cursor = noteHelper.queryById(uri.lastPathSegment.toString())
+            else -> cursor = null
+        }
+
+        return cursor
+    }
+
+
+    override fun getType(uri: Uri): String? {
+        return null
+    }
+
+
     override fun insert(uri: Uri, contentValues: ContentValues?): Uri? {
         val added: Long = when (NOTE) {
             sUriMatcher.match(uri) -> noteHelper.insert(contentValues)
@@ -41,6 +78,8 @@ class NoteProvider : ContentProvider() {
 
         return Uri.parse("$CONTENT_URI/$added")
     }
+
+
     override fun update(uri: Uri, contentValues: ContentValues?, s: String?, strings: Array<String>?): Int {
         val updated: Int = when (NOTE_ID) {
             sUriMatcher.match(uri) -> noteHelper.update(uri.lastPathSegment.toString(),contentValues)
@@ -52,11 +91,6 @@ class NoteProvider : ContentProvider() {
         return updated
     }
 
-    override fun update(
-        uri: Uri, values: ContentValues?, selection: String?,
-        selectionArgs: Array<String>?
-    ): Int {
-        TODO("Implement this to handle requests to update one or more rows.")
     override fun delete(uri: Uri, s: String?, strings: Array<String>?): Int {
         val deleted: Int = when (NOTE_ID) {
             sUriMatcher.match(uri) -> noteHelper.deleteById(uri.lastPathSegment.toString())
@@ -67,4 +101,5 @@ class NoteProvider : ContentProvider() {
 
         return deleted
     }
+
 }
