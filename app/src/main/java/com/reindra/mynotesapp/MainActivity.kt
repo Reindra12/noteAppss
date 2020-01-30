@@ -94,3 +94,4 @@ class MainActivity : AppCompatActivity() {
     private fun showSnackbarMessage(message: String) {
         Snackbar.make(rv_notes, message, Snackbar.LENGTH_SHORT).show()
     }
+}
