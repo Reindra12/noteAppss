@@ -11,6 +11,11 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
         <activity android:name=".NoteAddUpdateActivity"></activity>
+        <provider
+            android:name=".provider.NoteProvider"
+            android:authorities="com.reindra.mynotesapp"
+            android:enabled="true"
+            android:exported="true"></provider>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
