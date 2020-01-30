@@ -13,6 +13,11 @@ internal class DatabaseContract {
             const val TITLE = "title"
             const val DESCRIPTION = "description"
             const val DATE = "date"
+            // untuk membuat URI content://com.dicoding.picodiploma.mynotesapp/note
+            val CONTENT_URI: Uri = Uri.Builder().scheme(SCHEME)
+                .authority(AUTHORITY)
+                .appendPath(TABLE_NAME)
+                .build()
         }
 
     }
