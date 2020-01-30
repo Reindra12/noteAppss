@@ -57,5 +57,14 @@ class NoteProvider : ContentProvider() {
         selectionArgs: Array<String>?
     ): Int {
         TODO("Implement this to handle requests to update one or more rows.")
+    override fun delete(uri: Uri, s: String?, strings: Array<String>?): Int {
+        val deleted: Int = when (NOTE_ID) {
+            sUriMatcher.match(uri) -> noteHelper.deleteById(uri.lastPathSegment.toString())
+            else -> 0
+        }
+
+        context?.contentResolver?.notifyChange(CONTENT_URI, null)
+
+        return deleted
     }
 }
