@@ -31,6 +31,16 @@ class NoteProvider : ContentProvider() {
         selectionArgs: Array<String>?, sortOrder: String?
     ): Cursor? {
         TODO("Implement this to handle query requests from clients.")
+    override fun insert(uri: Uri, contentValues: ContentValues?): Uri? {
+        val added: Long = when (NOTE) {
+            sUriMatcher.match(uri) -> noteHelper.insert(contentValues)
+            else -> 0
+        }
+
+        context?.contentResolver?.notifyChange(CONTENT_URI, null)
+
+        return Uri.parse("$CONTENT_URI/$added")
+    }
     }
 
     override fun update(
