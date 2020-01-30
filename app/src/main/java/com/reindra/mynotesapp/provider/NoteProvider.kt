@@ -41,6 +41,15 @@ class NoteProvider : ContentProvider() {
 
         return Uri.parse("$CONTENT_URI/$added")
     }
+    override fun update(uri: Uri, contentValues: ContentValues?, s: String?, strings: Array<String>?): Int {
+        val updated: Int = when (NOTE_ID) {
+            sUriMatcher.match(uri) -> noteHelper.update(uri.lastPathSegment.toString(),contentValues)
+            else -> 0
+        }
+
+        context?.contentResolver?.notifyChange(CONTENT_URI, null)
+
+        return updated
     }
 
     override fun update(
