@@ -4,7 +4,7 @@ import android.database.Cursor
 import com.reindra.mynotesapp.db.DatabaseContract
 import com.reindra.mynotesapp.entity.Note
 object MappingHelper {
-    
+
     fun mapCursorToArrayList(notesCursor: Cursor): ArrayList<Note> {
         val notesList = ArrayList<Note>()
 
