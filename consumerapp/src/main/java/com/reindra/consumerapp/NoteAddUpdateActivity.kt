@@ -52,7 +52,9 @@ class NoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
         if (isEdit) {
             // Uri yang di dapatkan disini akan digunakan untuk ambil data dari provider
             // content://com.dicoding.picodiploma.mynotesapp/note/id
+
             uriWithId = Uri.parse(CONTENT_URI.toString() + "/" + note?.id)
+
             val cursor = contentResolver.query(uriWithId, null, null, null, null)
             if (cursor != null) {
                 note = MappingHelper.mapCursorToObject(cursor)
@@ -83,17 +85,25 @@ class NoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
             val title = edt_title.text.toString().trim()
             val description = edt_description.text.toString().trim()
 
+            /*
+            Jika fieldnya masih kosong maka tampilkan error
+             */
             if (title.isEmpty()) {
                 edt_title.error = "Field can not be blank"
                 return
             }
 
+            // Gunakan contentvalues untuk menampung data
             val values = ContentValues()
             values.put(TITLE, title)
             values.put(DESCRIPTION, description)
 
+            /*
+            Jika merupakan edit setresultnya UPDATE, dan jika bukan maka setresultnya ADD
+             */
             if (isEdit) {
-                // Gunakan uriWithId untuk update
+
+                // Gunakan uriWithId dari intent activity ini
                 // content://com.dicoding.picodiploma.mynotesapp/note/id
                 contentResolver.update(uriWithId, values, null, null)
                 Toast.makeText(this, "Satu item berhasil diedit", Toast.LENGTH_SHORT).show()
@@ -135,6 +145,11 @@ class NoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
         showAlertDialog(ALERT_DIALOG_CLOSE)
     }
 
+    /*
+    Konfirmasi dialog sebelum proses batal atau hapus
+    close = 10
+    delete = 20
+    */
     private fun showAlertDialog(type: Int) {
         val isDialogClose = type == ALERT_DIALOG_CLOSE
         val dialogTitle: String
@@ -157,7 +172,7 @@ class NoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
                 if (isDialogClose) {
                     finish()
                 } else {
-                    // Gunakan uriWithId dari intent activity ini
+                    // Gunakan uriWithId untuk delete
                     // content://com.dicoding.picodiploma.mynotesapp/note/id
                     contentResolver.delete(uriWithId, null, null)
                     Toast.makeText(this, "Satu item berhasil dihapus", Toast.LENGTH_SHORT).show()
