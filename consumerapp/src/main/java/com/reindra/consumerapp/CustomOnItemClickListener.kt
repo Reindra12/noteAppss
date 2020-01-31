@@ -1,4 +1,4 @@
-package com.reindra.mynotesapp
+package com.reindra.consumerapp
 
 import android.view.View
 

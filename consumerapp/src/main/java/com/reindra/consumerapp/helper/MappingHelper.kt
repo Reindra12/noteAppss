@@ -1,8 +1,8 @@
-package com.reindra.mynotesapp.helper
+package com.reindra.consumerapp.helper
 
 import android.database.Cursor
-import com.reindra.mynotesapp.db.DatabaseContract
-import com.reindra.mynotesapp.entity.Note
+import com.reindra.consumerapp.db.DatabaseContract
+import com.reindra.consumerapp.entity.Note
 object MappingHelper {
 
     fun mapCursorToArrayList(notesCursor: Cursor): ArrayList<Note> {
