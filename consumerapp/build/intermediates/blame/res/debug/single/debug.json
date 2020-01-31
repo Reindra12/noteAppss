@@ -12,12 +12,12 @@
         "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\color\\abc_tint_edittext.xml"
     },
     {
-        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable_btn_checkbox_checked_mtrl.xml.flat",
-        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable\\btn_checkbox_checked_mtrl.xml"
-    },
-    {
         "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_chip_checked_circle.xml.flat",
         "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\c05dc666425882189f59288a7601eb3e\\material-1.0.0\\res\\drawable\\ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable_btn_checkbox_checked_mtrl.xml.flat",
+        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable\\btn_checkbox_checked_mtrl.xml"
     },
     {
         "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -72,12 +72,12 @@
         "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_stroke_color_selector.xml.flat",
         "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\c05dc666425882189f59288a7601eb3e\\material-1.0.0\\res\\color\\mtrl_btn_stroke_color_selector.xml"
+    },
+    {
+        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_design_ic_visibility.png.flat",
@@ -108,12 +108,12 @@
         "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\c05dc666425882189f59288a7601eb3e\\material-1.0.0\\res\\color\\mtrl_btn_text_color_selector.xml"
     },
     {
-        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -248,12 +248,12 @@
         "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml.flat",
@@ -284,12 +284,12 @@
         "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
         "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\8bd00c24d95857bf4805942e4c6d7cdc\\core-1.1.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
         "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -340,16 +340,16 @@
         "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_radio.xml.flat",
+        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\animator-v21_design_appbar_state_list_animator.xml.flat",
         "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\c05dc666425882189f59288a7601eb3e\\material-1.0.0\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     },
     {
-        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_radio.xml.flat",
-        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -396,16 +396,16 @@
         "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
-        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\anim\\abc_fade_in.xml"
+        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_radio_to_on_mtrl_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml"
     },
     {
         "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
         "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\layout\\abc_tooltip.xml"
     },
     {
-        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_radio_to_on_mtrl_animation_interpolator_0.xml.flat",
-        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+        "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
+        "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_seek_thumb.xml.flat",

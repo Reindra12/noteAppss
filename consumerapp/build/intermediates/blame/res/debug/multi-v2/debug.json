@@ -97,38 +97,6 @@
             ]
         },
         {
-            "outputFile": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\values-af_values-af.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\8bd00c24d95857bf4805942e4c6d7cdc\\core-1.1.0\\res\\values-af\\values-af.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "30",
-                        "startColumns": "4",
-                        "startOffsets": "2857",
-                        "endColumns": "100",
-                        "endOffsets": "2953"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\values-af\\values-af.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,309,415,500,603,721,798,875,966,1058,1153,1247,1347,1440,1535,1634,1729,1823,1903,2010,2115,2212,2320,2423,2525,2679,2777",
-                        "endColumns": "107,95,105,84,102,117,76,76,90,91,94,93,99,92,94,98,94,93,79,106,104,96,107,102,101,153,97,79",
-                        "endOffsets": "208,304,410,495,598,716,793,870,961,1053,1148,1242,1342,1435,1530,1629,1724,1818,1898,2005,2110,2207,2315,2418,2520,2674,2772,2852"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\values-v23_values-v23.arsc.flat",
             "map": [
                 {
@@ -164,20 +132,10 @@
             ]
         },
         {
-            "outputFile": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\values-ro_values-ro.arsc.flat",
+            "outputFile": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\values-af_values-af.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\values-ro\\values-ro.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,226,330,443,527,631,752,837,918,1009,1101,1196,1290,1391,1484,1579,1673,1764,1856,1938,2050,2158,2258,2372,2478,2584,2748,2851",
-                        "endColumns": "120,103,112,83,103,120,84,80,90,91,94,93,100,92,94,93,90,91,81,111,107,99,113,105,105,163,102,82",
-                        "endOffsets": "221,325,438,522,626,747,832,913,1004,1096,1191,1285,1386,1479,1574,1668,1759,1851,1933,2045,2153,2253,2367,2473,2579,2743,2846,2929"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\8bd00c24d95857bf4805942e4c6d7cdc\\core-1.1.0\\res\\values-ro\\values-ro.xml",
+                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\8bd00c24d95857bf4805942e4c6d7cdc\\core-1.1.0\\res\\values-af\\values-af.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -188,9 +146,19 @@
                     "to": {
                         "startLines": "30",
                         "startColumns": "4",
-                        "startOffsets": "2934",
+                        "startOffsets": "2857",
                         "endColumns": "100",
-                        "endOffsets": "3030"
+                        "endOffsets": "2953"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\values-af\\values-af.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,309,415,500,603,721,798,875,966,1058,1153,1247,1347,1440,1535,1634,1729,1823,1903,2010,2115,2212,2320,2423,2525,2679,2777",
+                        "endColumns": "107,95,105,84,102,117,76,76,90,91,94,93,99,92,94,98,94,93,79,106,104,96,107,102,101,153,97,79",
+                        "endOffsets": "208,304,410,495,598,716,793,870,961,1053,1148,1242,1342,1435,1530,1629,1724,1818,1898,2005,2110,2207,2315,2418,2520,2674,2772,2852"
                     }
                 }
             ]
@@ -223,6 +191,38 @@
                         "startOffsets": "105,216,327,435,526,633,760,844,924,1015,1107,1202,1296,1397,1490,1585,1679,1770,1861,1946,2059,2160,2256,2369,2479,2603,2777,2888",
                         "endColumns": "110,110,107,90,106,126,83,79,90,91,94,93,100,92,94,93,90,90,84,112,100,95,112,109,123,173,110,78",
                         "endOffsets": "211,322,430,521,628,755,839,919,1010,1102,1197,1291,1392,1485,1580,1674,1765,1856,1941,2054,2155,2251,2364,2474,2598,2772,2883,2962"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\values-ro_values-ro.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\values-ro\\values-ro.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,226,330,443,527,631,752,837,918,1009,1101,1196,1290,1391,1484,1579,1673,1764,1856,1938,2050,2158,2258,2372,2478,2584,2748,2851",
+                        "endColumns": "120,103,112,83,103,120,84,80,90,91,94,93,100,92,94,93,90,91,81,111,107,99,113,105,105,163,102,82",
+                        "endOffsets": "221,325,438,522,626,747,832,913,1004,1096,1191,1285,1386,1479,1574,1668,1759,1851,1933,2045,2153,2253,2367,2473,2579,2743,2846,2929"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\8bd00c24d95857bf4805942e4c6d7cdc\\core-1.1.0\\res\\values-ro\\values-ro.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "30",
+                        "startColumns": "4",
+                        "startOffsets": "2934",
+                        "endColumns": "100",
+                        "endOffsets": "3030"
                     }
                 }
             ]
@@ -532,38 +532,6 @@
             ]
         },
         {
-            "outputFile": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\values-hu_values-hu.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\values-hu\\values-hu.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,305,420,504,619,742,819,895,986,1078,1173,1267,1368,1461,1556,1651,1742,1833,1915,2025,2135,2235,2346,2455,2574,2756,2859",
-                        "endColumns": "107,91,114,83,114,122,76,75,90,91,94,93,100,92,94,94,90,90,81,109,109,99,110,108,118,181,102,82",
-                        "endOffsets": "208,300,415,499,614,737,814,890,981,1073,1168,1262,1363,1456,1551,1646,1737,1828,1910,2020,2130,2230,2341,2450,2569,2751,2854,2937"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\8bd00c24d95857bf4805942e4c6d7cdc\\core-1.1.0\\res\\values-hu\\values-hu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "30",
-                        "startColumns": "4",
-                        "startOffsets": "2942",
-                        "endColumns": "100",
-                        "endOffsets": "3038"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\values-sw_values-sw.arsc.flat",
             "map": [
                 {
@@ -591,6 +559,38 @@
                         "startOffsets": "105,208,307,415,505,610,727,810,893,984,1076,1171,1265,1366,1459,1554,1648,1739,1830,1911,2012,2120,2219,2326,2438,2542,2704,2801",
                         "endColumns": "102,98,107,89,104,116,82,82,90,91,94,93,100,92,94,93,90,90,80,100,107,98,106,111,103,161,96,81",
                         "endOffsets": "203,302,410,500,605,722,805,888,979,1071,1166,1260,1361,1454,1549,1643,1734,1825,1906,2007,2115,2214,2321,2433,2537,2699,2796,2878"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\values-hu_values-hu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,305,420,504,619,742,819,895,986,1078,1173,1267,1368,1461,1556,1651,1742,1833,1915,2025,2135,2235,2346,2455,2574,2756,2859",
+                        "endColumns": "107,91,114,83,114,122,76,75,90,91,94,93,100,92,94,94,90,90,81,109,109,99,110,108,118,181,102,82",
+                        "endOffsets": "208,300,415,499,614,737,814,890,981,1073,1168,1262,1363,1456,1551,1646,1737,1828,1910,2020,2130,2230,2341,2450,2569,2751,2854,2937"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\8bd00c24d95857bf4805942e4c6d7cdc\\core-1.1.0\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "30",
+                        "startColumns": "4",
+                        "startOffsets": "2942",
+                        "endColumns": "100",
+                        "endOffsets": "3038"
                     }
                 }
             ]
@@ -1057,38 +1057,6 @@
             ]
         },
         {
-            "outputFile": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\values-ml_values-ml.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\8bd00c24d95857bf4805942e4c6d7cdc\\core-1.1.0\\res\\values-ml\\values-ml.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "30",
-                        "startColumns": "4",
-                        "startOffsets": "2936",
-                        "endColumns": "100",
-                        "endOffsets": "3032"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\values-ml\\values-ml.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,212,318,429,520,625,747,825,901,992,1084,1185,1279,1380,1474,1569,1668,1759,1850,1931,2040,2144,2243,2355,2467,2588,2753,2854",
-                        "endColumns": "106,105,110,90,104,121,77,75,90,91,100,93,100,93,94,98,90,90,80,108,103,98,111,111,120,164,100,81",
-                        "endOffsets": "207,313,424,515,620,742,820,896,987,1079,1180,1274,1375,1469,1564,1663,1754,1845,1926,2035,2139,2238,2350,2462,2583,2748,2849,2931"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\values-es_values-es.arsc.flat",
             "map": [
                 {
@@ -1116,6 +1084,38 @@
                         "startOffsets": "2918",
                         "endColumns": "100",
                         "endOffsets": "3014"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\MyRepository\\Android\\Dicoding\\ModuleSub4\\MyNotesApp\\consumerapp\\build\\intermediates\\res\\merged\\debug\\values-ml_values-ml.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\8bd00c24d95857bf4805942e4c6d7cdc\\core-1.1.0\\res\\values-ml\\values-ml.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "30",
+                        "startColumns": "4",
+                        "startOffsets": "2936",
+                        "endColumns": "100",
+                        "endOffsets": "3032"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\reind\\.gradle\\caches\\transforms-2\\files-2.1\\ff05980653e975b6479060b091690fdb\\appcompat-1.1.0\\res\\values-ml\\values-ml.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,212,318,429,520,625,747,825,901,992,1084,1185,1279,1380,1474,1569,1668,1759,1850,1931,2040,2144,2243,2355,2467,2588,2753,2854",
+                        "endColumns": "106,105,110,90,104,121,77,75,90,91,100,93,100,93,94,98,90,90,80,108,103,98,111,111,120,164,100,81",
+                        "endOffsets": "207,313,424,515,620,742,820,896,987,1079,1180,1274,1375,1469,1564,1663,1754,1845,1926,2035,2139,2238,2350,2462,2583,2748,2849,2931"
                     }
                 }
             ]
