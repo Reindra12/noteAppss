@@ -1,4 +1,4 @@
-package com.reindra.mynotesapp
+package com.reindra.consumerapp
 
 import android.content.Intent
 import android.database.ContentObserver
@@ -10,11 +10,10 @@ import android.os.HandlerThread
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
-import com.reindra.mynotesapp.adapter.NoteAdapter
-import com.reindra.mynotesapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
-import com.reindra.mynotesapp.db.NoteHelper
-import com.reindra.mynotesapp.entity.Note
-import com.reindra.mynotesapp.helper.MappingHelper
+import com.reindra.consumerapp.adapter.NoteAdapter
+import com.reindra.consumerapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
+import com.reindra.consumerapp.entity.Note
+import com.reindra.consumerapp.helper.MappingHelper
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

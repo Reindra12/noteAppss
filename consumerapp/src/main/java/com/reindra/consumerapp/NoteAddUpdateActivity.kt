@@ -1,27 +1,21 @@
-package com.reindra.mynotesapp
+package com.reindra.consumerapp
 
 import android.content.ContentValues
-import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.ContactsContract
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.reindra.mynotesapp.db.DatabaseContract
-import com.reindra.mynotesapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
-import com.reindra.mynotesapp.db.DatabaseContract.NoteColumns.Companion.DATE
-import com.reindra.mynotesapp.db.DatabaseContract.NoteColumns.Companion.DESCRIPTION
-import com.reindra.mynotesapp.db.DatabaseContract.NoteColumns.Companion.TITLE
-import com.reindra.mynotesapp.db.NoteHelper
-import com.reindra.mynotesapp.entity.Note
-import com.reindra.mynotesapp.helper.MappingHelper
+import com.reindra.consumerapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
+import com.reindra.consumerapp.db.DatabaseContract.NoteColumns.Companion.DATE
+import com.reindra.consumerapp.db.DatabaseContract.NoteColumns.Companion.DESCRIPTION
+import com.reindra.consumerapp.db.DatabaseContract.NoteColumns.Companion.TITLE
+import com.reindra.consumerapp.entity.Note
+import com.reindra.consumerapp.helper.MappingHelper
 import kotlinx.android.synthetic.main.activity_note_add_update.*
-import java.sql.Date
 import java.text.SimpleDateFormat
 import java.util.*
 

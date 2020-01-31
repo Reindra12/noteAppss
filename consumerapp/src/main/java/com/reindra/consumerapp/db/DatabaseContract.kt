@@ -1,4 +1,4 @@
-package com.reindra.mynotesapp.db
+package com.reindra.consumerapp.db
 
 import android.net.Uri
 import android.provider.BaseColumns
@@ -6,7 +6,7 @@ import android.service.notification.Condition.SCHEME
 
 object DatabaseContract {
 
-    const val AUTHORITY = "com.reindra.mynotesapp"
+    const val AUTHORITY = "com.reindra.consumerapp"
     const val SCHEME = "content"
 
 

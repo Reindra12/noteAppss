@@ -1,4 +1,4 @@
-package com.reindra.mynotesapp.entity
+package com.reindra.consumerapp.entity
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
