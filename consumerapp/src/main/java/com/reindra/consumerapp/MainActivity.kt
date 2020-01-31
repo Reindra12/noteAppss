@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity() {
         val handlerThread = HandlerThread("DataObserver")
         handlerThread.start()
         val handler = Handler(handlerThread.looper)
+
         val myObserver = object : ContentObserver(handler) {
             override fun onChange(self: Boolean) {
                 loadNotesAsync()
@@ -70,6 +71,7 @@ class MainActivity : AppCompatActivity() {
         GlobalScope.launch(Dispatchers.Main) {
             progressbar.visibility = View.VISIBLE
             val deferredNotes = async(Dispatchers.IO) {
+                // CONTENT_URI = content://com.dicoding.picodiploma.mynotesapp/note
                 val cursor = contentResolver?.query(CONTENT_URI, null, null, null, null) as Cursor
                 MappingHelper.mapCursorToArrayList(cursor)
             }
@@ -90,6 +92,11 @@ class MainActivity : AppCompatActivity() {
         outState.putParcelableArrayList(EXTRA_STATE, adapter.listNotes)
     }
 
+    /**
+     * Tampilkan snackbar
+     *
+     * @param message inputan message
+     */
     private fun showSnackbarMessage(message: String) {
         Snackbar.make(rv_notes, message, Snackbar.LENGTH_SHORT).show()
     }
